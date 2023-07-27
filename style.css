@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap%27');
+
+
+*{
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.principal{
+    padding: 20px 0px;
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.centro{
+    padding: 20px;
+    width: 400px;
+    border-top: 5px solid #ffbb12;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(141, 141, 141, 0.25);
+    height: 75vh;
+}
+
+#cadastrese{
+    font-size: 24px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.formulário{
+    display: flex;
+    gap: 40px;
+}
+
+input{
+    border: 1px solid #d2cec5;
+    background-color: #f9f8f6;
+    padding: 20px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#endereço{
+    width: 160px;
+    display: flex;
+}
+
+#uf{
+    width: 160px;
+    display: flex;
+}
+
+.cadastro{
+    background-color: #ffbb12;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.cadastro:hover{
+    background-color: #f0b726;
+}
